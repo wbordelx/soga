@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/08/2016, 08:41:26
+    Author     : wbord
+*/
+
+.captionBlue{background-color: #0033cc;
+            padding:9px;color:#333;width: 230px;
+align-content: center};
+
+
+.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6
+            {
+                   position:relative;min-height:1px;padding-right:15px;
+                   padding-left:15px;}
+.col-xs-4,.col-xs-6 {float:left}
+  
+
+.col-xs-6{width:10%}
+.col-xs-4{width:25%}
+.col-xs-pull-6{right:10%}
+.col-xs-pull-4{right:25%}
+.col-xs-push-6{left:10%}
+.col-xs-push-4{left:25%}
+
+
+ @media (min-width:992px){.col-md-4,.col-md-6{float:left;}
+                                            .col-md-6{width:10%}
+                                            .col-md-4{width:20%;}
+                                            .col-md-pull-6{right:50%}
+                                            .col-md-pull-4{right:33.33333333%}
+                                            .col-md-push-6{left:50%}
+                                            .col-md-push-4{left:33.33333333%;}                                          
+                                            .col-md-offset-6{margin-left:50%;}                                       
+                                            .col-md-offset-4{margin-left:33.33333333%;}
+                                            }               
